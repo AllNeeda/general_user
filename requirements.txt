@@ -1,0 +1,40 @@
+# Core Django
+Django==5.2.7
+asgiref==3.10.0
+sqlparse==0.5.3
+tzdata==2025.2
+typing_extensions==4.14.1
+
+# Django REST Framework
+djangorestframework==3.16.1
+
+# JWT Authentication
+djangorestframework-simplejwt==5.3.1
+PyJWT==2.10.1
+cryptography==45.0.5
+cffi==1.17.1
+pycparser==2.22
+
+# API Documentation
+drf-spectacular==0.28.0
+PyYAML==6.0.3
+uritemplate==4.2.0
+inflection==0.5.1
+jsonschema==4.25.1
+jsonschema-specifications==2025.9.1
+referencing==0.37.0
+rpds-py==0.27.1
+attrs==25.4.0
+packaging==25.0
+
+# Database
+psycopg2-binary==2.9.10
+
+# HTTP/Network (dependencies of drf-spectacular and other packages)
+urllib3==2.5.0
+certifi==2025.7.14
+charset-normalizer==3.4.2
+idna==3.10
+
+# Production Server
+gunicorn==23.0.0
