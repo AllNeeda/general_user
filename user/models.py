@@ -16,6 +16,7 @@ class Role(models.Model):
         return self.name
 
 
+
 class UserManager(BaseUserManager):
     use_in_migrations = True
 
