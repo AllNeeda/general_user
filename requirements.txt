@@ -38,3 +38,5 @@ idna==3.10
 
 # Production Server
 gunicorn==23.0.0
+django-cors-headers==4.9.0
+
